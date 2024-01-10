@@ -65,6 +65,9 @@ def rename_tag():
     pyautogui.click()
     check_for_Tag_name_already_present = pyperclip.paste()
 
+    #the module below checks if there is a "Tag name already present" error. The macro solves this error by adding a "+" to the end of the tag. It checks for this error by dragging the mouse across the screen in the place that the error message usually occurs, and copying any text it finds. If the error message is in the text, it will add a "+" to the end of the string, solving this error.
+
+    
     if "Tag name already present" in check_for_Tag_name_already_present:
         print("Tag name already present. Adding + to the end")
         pyautogui.moveTo(441, 385, duration=1)
