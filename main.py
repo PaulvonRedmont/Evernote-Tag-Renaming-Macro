@@ -2,9 +2,7 @@ import pyautogui
 import time
 import keyboard
 import pyperclip
-#import math
-#import mss
-#import os
+#don't forget to pip install pyautogui and pyperclip in the cmd!
 
 seconds_taken = 0  
 number_of_tags_renamed = 0
@@ -32,7 +30,7 @@ def rename_tag():
     print("Initial, unedited tag:", initial_tag)
     num_charcters = len(initial_tag)
     
-    if num_charcters >= 95:
+    if num_charcters >= 95:  #evernote only allows you to have 100 characters in a given note name. This leads to complications if your updated tag prefix makes the note longer than 100 characters, in which case you will have a chopped off prefix. This fixes it by checking and editing the string before entering the new prefix.
         print(f"Error: The string has {initial_tag} characters.")
         pyautogui.press('end')
         pyautogui.press('end')
@@ -50,7 +48,10 @@ def rename_tag():
     pyautogui.press('backspace')
     pyautogui.press('backspace')
     pyautogui.press('backspace')
-    pyautogui.write("cfac:")
+    
+    #use as many "backspace" and "right" functions as you need to delete the tag 
+    
+    pyautogui.write("RENAMED TAG TEXT GOES HERE")
     pyautogui.hotkey('ctrl', 'a')
     pyautogui.hotkey('ctrl', 'c') 
     copied_text = pyperclip.paste()
