@@ -1,5 +1,3 @@
-# Evernote-Tag-Renaming-Macro
-
 # Evernote Tag Renamer
 
 ## Overview
@@ -10,7 +8,9 @@ Before running the script, make sure you have the following dependencies install
 - Python 3.x
 - PyAutoGUI
 - Pyperclip
-You can install them using pip:
+
+
+(You can install them using pip)
 
 
 ## Usage
