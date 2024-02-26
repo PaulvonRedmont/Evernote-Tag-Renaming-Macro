@@ -30,4 +30,4 @@ Before running the script, make sure you have the following dependencies install
 - Special thanks to the developers of PyAutoGUI for providing a powerful tool for automating repetitive tasks.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License]((https://opensource.org/license/mit)https://opensource.org/license/mit).
