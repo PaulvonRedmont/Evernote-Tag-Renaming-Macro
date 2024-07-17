@@ -1,7 +1,7 @@
 # Evernote Tag Renamer
 
 ## Overview
-This Python script automates the process of renaming tags in Evernote using PyAutoGUI. It is particularly useful when you have a large number of tags to rename and want to save time by automating the process.
+This Python script automates the process of renaming tags in Evernote using PyAutoGUI. It is particularly useful when you have a large number of tags to rename and want to save time by automating the process. Naturally, an easier way to do this would be to use authentication tokens or something, but this method also worked for my use case, so why not.
 
 ## Prerequisites
 Before running the script, make sure you have the following dependencies installed:
@@ -24,10 +24,6 @@ Before running the script, make sure you have the following dependencies install
 - Ensure that Evernote is in focus and positioned correctly on the screen before running the script.
 - Make sure to review and customize the script according to your specific requirements before running it.
 - Use caution when running automation scripts, as they can potentially cause unintended actions or errors.
-
-## Acknowledgments
-- This script utilizes the PyAutoGUI library for automating GUI interactions.
-- Special thanks to the developers of PyAutoGUI for providing a powerful tool for automating repetitive tasks.
 
 ## License
 This project is licensed under the [MIT License]((https://opensource.org/license/mit)https://opensource.org/license/mit).
